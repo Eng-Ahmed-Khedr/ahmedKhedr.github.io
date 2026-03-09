@@ -65,30 +65,47 @@
 
     <!-- start hero section -->
 
-    <section class="hero relative overflow-hidden">
-        <div class="background bg-black absolute inset-0 z-1 translate-x-330 translate-y-50 scale-150 rotate-15">
-        </div>
-        <div class=" container flex items-center justify-around mx-auto h-screen">
-            <div class="info text-start">
-                <p class="my-6 font-bold text-[40px] text-black">Hi, I am</p>
-                <h1 class="font-bold text-[80px] text-black">Eng. Ahmed Khedr</h1>
-                <p class="text-[#909090] font-extrabold text-[25px] mb-25">Front-end Developer</p>
-                <ul class="flex gap-3">
-                    <li class="bg-[#C4C4C4] p-1 text-2xl text-black shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]">
-                        <a href="#"><i class="fa-solid fa-at"></i></a>
-                    </li>
-                    <li class="bg-[#C4C4C4] p-1 text-2xl text-black shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
-                        <a href="https://github.com/Developer-Ahmed-Ayman-khedr"><i class="fa-brands fa-github"></i></a>
-                    </li>
-                    <li class="bg-[#C4C4C4] p-1 text-2xl text-black shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
-                        <a href="https://www.linkedin.com/in/ahmed-khedr-0ba088266/"><i
-                                class="fa-brands fa-square-linkedin"></i></a>
-                    </li>
-                </ul>
+    <section class="hero overflow-hidden">
+        <div class="container flex flex-col justify-between  ms-auto me-auto z-4 h-screen w-full">
+            <div class="top container flex items-center justify-around mx-auto h-[90vh] overflow-hidden">
+                <div class="info text-start">
+                    <p class="my-6 font-bold text-[40px] text-black">Hi, I am</p>
+                    <h1 class="font-bold text-[80px] text-black">Eng. Ahmed Khedr</h1>
+                    <p class="text-[#909090] font-extrabold text-[25px] mb-25">Front-end Developer</p>
+                    <ul class="flex gap-3">
+                        <li class="bg-[#C4C4C4] p-1 text-2xl text-black shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]">
+                            <a href="#"><i class="fa-solid fa-at"></i></a>
+                        </li>
+                        <li class="bg-[#C4C4C4] p-1 text-2xl text-black shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+                            <a href="https://github.com/Developer-Ahmed-Ayman-khedr"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </li>
+                        <li class="bg-[#C4C4C4] p-1 text-2xl text-black shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+                            <a href="https://www.linkedin.com/in/ahmed-khedr-0ba088266/"><i
+                                    class="fa-brands fa-square-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="img bg-none relative mt-30">
+                    <img class="relative inline-block w-150 h-200 bg-none z-2" src="./photos/portrait-no-background.png"
+                        alt="portrait">
+                    <div
+                        class="background bg-black absolute inset-0 z-1 translate-x-30 translate-y-50 scale-150 rotate-15">
+                    </div></img>
+                </div>
             </div>
-            <div class="img bg-none">
-                <img class="relative inline-block mt-65 w-150 h-160 bg-none z-2"
-                    src="./photos/portrait-no-background.png" alt="portrait">
+            <div
+                class="bottom container flex flex-col z-2 text-white ps-15 py-5 bg-gradient-to-r from-gray-600 via-gray-700 to-gray-900">
+                <h2 class=" text-[30px] font-bold">About Me</h2>
+                <p>Junior / Entry-Level Front-end Developer focused on building
+                    responsive, modern web applications using React and JavaScript (ES6+). I enjoy turning ideas into
+                    clean,
+                    interactive user experiences and writing maintainable, reusable code.
+                    Eager to grow within a collaborative team, contribute to real-world projects, and continuously
+                    strengthen my front-end development skills.
+                    <br>Tech Stack: React • JavaScript • HTML • CSS • REST APIs • Git
+                </p>
+                <a href="#aboutMe">READ MORE</a>
             </div>
         </div>
     </section>
@@ -97,14 +114,16 @@
 
     <section class="aboutMe mt-15">
         <div class="container text-center mx-auto">
-            <h2 class="inline-block tracking-[0.35] leading-[1.27] text-[30px] border-4 border-black w-fit px-4 py-2">
+            
+            <h2 class="inline-block tracking-[0.35] leading-[1.27] text-[30px] border-4 border-black w-fit px-4 py-2"
+                id="aboutMe">
                 ABOUT ME</h2>
-            <p class="text-center py-10 text-[15px]">Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem
-                varius
-                finibus. Sed
-                ornare sit amet
-                lorem <br> sed viverra.
-                In vel urna quis libero viverra facilisis ut ac est.</p>
+            <p class="text-center py-10 text-[15px]">Junior / Entry-Level Front-end Developer focused on building
+                responsive, modern web applications using React and JavaScript (ES6+). I enjoy turning ideas into clean,
+                interactive user experiences and writing maintainable, reusable code.
+                Eager to grow within a collaborative team, contribute to real-world projects, and continuously
+                strengthen my front-end development skills.
+                Tech Stack: React • JavaScript • HTML • CSS • REST APIs • Git</p>
             <p class="border-x-2 border-black mb-10 px-3 w-fit inline-block text-[15px] font-semibold">EXPLORE</p>
             <ul class="flex flex-wrap">
                 <li>
